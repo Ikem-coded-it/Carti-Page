@@ -1,0 +1,20 @@
+{
+  "name": "carti-page",
+  "version": "1.0.0",
+  "description": "A website dedicated to why Playboi Carti is the greatest rapper of all time. My first website ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikem-coded-it/Carti-Page.git"
+  },
+  "keywords": ["Playboi", "Carti", "GOAT"],
+  "author": "Onubogu Ikemefuna C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ikem-coded-it/Carti-Page/issues"
+  },
+  "homepage": "https://github.com/Ikem-coded-it/Carti-Page#readme"
+}
