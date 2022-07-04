@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #111100;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+}
+
+.main-nav {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: #ffffff33;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url('images/goat2.jpeg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.Rapper-name {
+    margin: 0;
+    font-size: 4em;
+    font-family: sylfaen;
+    font-weight: normal;
+    color: grey;
+}
+
+.rapper-name-large {
+    font-size: 9em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: stencil;
+    font-weight: normal;
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.carti-pic1 {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: black;
+}
+
+.carti-pic2 {
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: black;
+}
+
+.carti-pic3 {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: black;
+}
+
+.paragraph1, .paragraph2, .paragraph3 {
+    margin: 60px 0;
+}
+
+.main-footer {
+    background-color: #dddddd;
+    color:#111100;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
